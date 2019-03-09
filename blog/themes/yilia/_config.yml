@@ -3,6 +3,7 @@
 menu:
   主页: /
   随笔: /tags/随笔/
+  Draw Something: http://weavesilk.com/
 
 # SubNav
 subnav:
@@ -116,6 +117,7 @@ word_count: true
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
+  # url(https://i.pximg.net/img-master/img/2018/07/25/10/01/19/69849916_p0_master1200.jpg)
   header: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'

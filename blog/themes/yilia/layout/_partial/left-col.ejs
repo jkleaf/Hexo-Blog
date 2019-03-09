@@ -1,8 +1,5 @@
 <% var defaultBg = '#4d4d4d'; %>
-<div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %> ;background-image: url('img/img_bg.jpg'); background-size:100%">
-	<audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false" style="height:45px:;opacity:0.6">
-		<source type="audio/mpeg" src="/music/Homesick.mp3">
-    </audio>
+<div class="overlay" ><!-- style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %> "> -->
 </div>
 <div class="intrude-less">
 	<header id="header" class="inner">
@@ -36,7 +33,7 @@
 					<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="icon-<%= i %>"></i></a>
 		        <%}%>
 			</div>
-			<br>
+			</div>
 			<% if(theme.counter) {%>
 				<%- partial('counter') %>
 			<% } %>
@@ -44,6 +41,11 @@
 		</nav>
 	</header>		
 </div>
+<div style="height: 55px;opacity: 0.6;bottom: 15px;position: absolute;">
+	<audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+		<source type="audio/mpeg" src="/music/Homesick.mp3">
+	</audio>
+</div>				
 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
 	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
 	<script type="text/javascript" src="/fireworks.js"></script>

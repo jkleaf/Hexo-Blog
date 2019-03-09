@@ -109,7 +109,7 @@ gitalk:
   distractionFreeMode: true
 
 # 访客计数器
-counter: true
+counter: false
 
 # 文章字数统计
 word_count: true
@@ -118,7 +118,7 @@ word_count: true
 style:
   # 头像上面的背景颜色
   # url(https://i.pximg.net/img-master/img/2018/07/25/10/01/19/69849916_p0_master1200.jpg)
-  header: '#4d4d4d'
+  header: url('img/img_bg.jpg')
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 

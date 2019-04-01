@@ -19,9 +19,9 @@ subnav:
   bilibili: "https://www.bilibili.com/"
   #acfun: "#"
   #mail: "jkleaf@gmail.com"
-  facebook: "#"
-  google: "#"
-  twitter: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
   #linkedin: "#"
 
 rss: /atom.xml

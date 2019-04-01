@@ -56,7 +56,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map:
+tag_map: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -82,25 +82,6 @@ deploy:
   repository: https://github.com/jkleaf/jkleaf.github.io
   branch: master
 
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-
 live2d:
   enable: true
   scriptFrom: local
@@ -120,3 +101,22 @@ live2d:
   react:
     opacityDefault: 0.7
     opacityOnHover: 0.2
+	
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: true
+      content: false
+      slug: true
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: true
+      categories: true
+      tags: true
